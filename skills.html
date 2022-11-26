@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Freelancer portfolio</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <script src="./js/main.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="top-content">
+        <nav class="nav">
+          <div class="container">
+            <div class="nav-row">
+              <a href="./index.html" class="logo"
+                ><strong>Freelancer </strong>portfolio</a>
+
+                 <!-- Переключение темной/светлой темы -->
+
+        <button class="dark-mode-btn">
+          <img src="./img/icons/sun.svg" alt="light mode" class="dark-mode-btn__icon">
+          <img src="./img/icons/moon.svg" alt="dark mode" class="dark-mode-btn__icon">
+        </button>
+        <!-- ---------------------- -->
+        
+              <ul class="nav-list">
+                <li class="nav-list__item">
+                  <a href="./index.html" class="nav-list__link">Projects</a>
+                </li>
+                <li class="nav-list__item">
+                  <a
+                    href="./skills.html"
+                    class="nav-list__link nav-list__link--active"
+                    >Skills</a
+                  >
+                </li>
+                <li class="nav-list__item">
+                  <a href="./contacts.html" class="nav-list__link">Contacts</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <section class="section-skills">
+          <div class="container">
+            <div class="skills__content">
+              <h1 class="skills__title">Skills</h1>
+
+              <div class="skills-item skills-item__front">
+                <h2 class="skill-title">Frontend</h2>
+                <p class="skill-text">
+                  JavaScript, TypeScript, ReactJS, Angular, Redux, HTML, CSS,
+                  NPM, <br />
+                  BootStrap, MaterialUI, Yarn, TailwindCSS, StyledComponents
+                </p>
+              </div>
+
+              <div class="skills-item skills-item__back">
+                <h2 class="skill-title">Backend</h2>
+                <p class="skill-text">NodeJS, MySQL, MongoDB, PHP, Laravel</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__wrapper">
+            <ul class="social">
+              <li class="social__item">
+                <a href="#!"><img src="./img/icons/vk.svg" alt="vk" /></a>
+              </li>
+              <li class="social__item">
+                <a href="#!"
+                  ><img src="./img/icons/instagram.svg" alt="instagram"
+                /></a>
+              </li>
+              <li class="social__item">
+                <a href="#!"
+                  ><img src="./img/icons/twitter.svg" alt="twitter"
+                /></a>
+              </li>
+              <li class="social__item">
+                <a href="#!"
+                  ><img src="./img/icons/gitHub.svg" alt="gitHub"
+                /></a>
+              </li>
+              <li class="social__item">
+                <a href="#!"
+                  ><img src="./img/icons/linkedIn.svg" alt="linkedIn"
+                /></a>
+              </li>
+            </ul>
+            <p class="copyright">© 2022 sobakastar dr.gris@yandex.ru</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
